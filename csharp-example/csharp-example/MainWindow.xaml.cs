@@ -25,28 +25,35 @@ namespace csharp_example
 
         public MainWindow()
         {
-            // Inicia la aplicación
             InitializeComponent();
 
             Administrador Jefe = new Administrador("Linus", "Trovalds");
             LaCaixa = new Banco(Jefe, "LaCaixa");
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //Declaramos un TextBlock y las variables que utilizaremos
-            TextBlock bloque = new TextBlock();
-
             //Declaramos las variables añadiendo el valor del label en XAML 
             var nombre = Nombre.Text;
             var apellido = Apellido.Text;
 
-            bloque.Text = nombre + apellido;
-            Respuesta.Children.Add(bloque);
-
-            //Añadimos el nuevo cliente a la ListaClientes 
+            //Añadimos las variables como nuevo cliente a la ListaClientes 
             Cliente NuevoCliente = new Cliente(Nombre.Text, Apellido.Text);
             LaCaixa.ListaClientes.Add(NuevoCliente);
+        }
+
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            foreach (var cli in LaCaixa.ListaClientes)
+            {
+                //Declaramos un TextBlock
+                TextBlock bloque = new TextBlock();
+
+                //Mostramos los datos de la lista en textblock
+                bloque.Text = cli.Nombre + " / " + cli.Apellido;
+                Respuesta.Children.Add(bloque);
+            }
         }
     }
 }
