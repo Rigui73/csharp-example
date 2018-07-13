@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:csharp_example"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="CSharp" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Name="Formulario" VerticalAlignment="Center">
+            <Label Content="_nombre" Target="{Binding ElementName=Nombre}"></Label>
+            <TextBox Name="Nombre"></TextBox>
+            <Label Content="_apellido" Target="{Binding ElementName=Apellido}"></Label>
+            <TextBox Name="Apellido"></TextBox>
+
+            <Button Click="Button_Click">Guardar</Button>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Name="Respuesta" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock></TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
