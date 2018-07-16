@@ -6,24 +6,7 @@
         xmlns:local="clr-namespace:csharp_example"
         mc:Ignorable="d"
         Title="CSharp" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-
-        <StackPanel Grid.Column="0" Name="Formulario" VerticalAlignment="Center">
-            <Label Content="_nombre" Target="{Binding ElementName=Nombre}"></Label>
-            <TextBox Name="Nombre"></TextBox>
-            <Label Content="_apellido" Target="{Binding ElementName=Apellido}"></Label>
-            <TextBox Name="Apellido"></TextBox>
-
-            <Button Click="Button_Click">Guardar</Button>
-            <Button Click="Button_Click1">Enviar</Button>
-        </StackPanel>
-
-        <StackPanel Grid.Column="1" Name="Respuesta" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock></TextBlock>
-        </StackPanel>
+    <Grid Name="GridPrincipal">
+        <Frame Name="FramePrincipal" NavigationUIVisibility="Hidden"></Frame>
     </Grid>
 </Window>

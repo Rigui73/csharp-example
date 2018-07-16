@@ -10,9 +10,10 @@ Este proyecto tiene un [Código de Conducta](https://github.com/Rigui73/Riguiped
 
 ## Índex del contenido
 
-1. [Getting Involved](#getting-involved)
-2. [How To Report style issues](#how-to-report-style-issues)
-3. [Core Style Guide](#stackoverflow-dark-style-guide)
+1. [Cómo contribuir](#Cómo-contribuir)
+2. [Pull Requests](#Pull-requests)
+3. [Issues](#issues)
+4. [Vulnerabilidades de seguridad](#Vulnerabilidades-de-seguridad)
 
 ## Cómo contribuir
 
@@ -72,7 +73,7 @@ Antes de enviar un problema, **examine cuidadosamente los siguientes lugares** p
 
 Por último, consideramos la ayuda de estos "issues" abriendo un [Pull Request](https://www.github.com/Rigui73/Riguipedia/pullrequest)
 
-## Security vulnerability reports
+## Vulnerabilidades de seguridad
 
 Si descubre una vulnerabilidad de seguridad, apreciaríamos  que no se divulgara públicamente. El apartado [issue](https://www.github.com/Rigui73/Riguipediaissue) y la [lista de correos](https://www.github.com/Rigui73/Riguipedia/.mailmap) son completamente públicos. Si necesita llegar a desarrolladores del sistema de forma no pública, informe el problema a [Rigui73]<contacto@adriarigall.com>
 
