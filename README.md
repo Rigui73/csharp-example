@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="/images/Code-logo.png"><br>
+  <img src="/images/Csharp_Logo.png"><br>
   <b>Repositorio para practicar c#</b><br><br>
   <a href="http://www.google.es"><img src="https://img.shields.io/pypi/status/Django.svg" alt="build-status"></a>
-  <a href="http://www.google.es"><img src="https://img.shields.io/pypi/l/Django.svg" alt="license"></a>
+  <a href="http://www.google.es"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"></a>
 </p>
 
 ## DESCRIPCION
@@ -30,7 +30,7 @@ csharp-example es un repositorio construido encima de Github mediante Visual Stu
 
 | Sistema Operativo | Adaptadores (frameworks, software) | Espacio Disco | API | Soportado |
 | ----------------- | ---------------------------------- | ------------- | --- | --------- |
-| Windows  		    | Microsoft .NET 4.7                 | 5MB           | no  | si        |
+| Windows  		      | Microsoft .NET 4.7                 | 5MB           | no  | si        |
 
 ## INSTALACION
 
@@ -42,7 +42,7 @@ Una serie de ejemplos paso a paso para preparar el proyecto, que le indican cóm
 
 ## TEST
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema y usa el programa
+Explicar cómo ejecutar las pruebas automatizadas para est sistema y usa el programae
 
 ### SCREENSHOTS
 
